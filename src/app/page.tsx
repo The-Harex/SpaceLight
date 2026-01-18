@@ -3,7 +3,7 @@ import ISSTracker from "@/components/ISSTracker";
 import LaunchFeed from "@/components/LaunchFeed";
 import SpaceWeather from "@/components/SpaceWeather";
 import PeopleInSpace from "@/components/PeopleInSpace";
-import MoonPhase from "@/components/MoonPhase";
+import MoonPhase from "../components/MoonPhase";
 import VisiblePlanets from "@/components/VisiblePlanets";
 
 export default function Home() {
