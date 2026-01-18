@@ -1,4 +1,5 @@
 import { Radio } from 'lucide-react';
+import ClientDate from './ClientDate';
 
 async function getLatestNews() {
   try {
@@ -33,7 +34,7 @@ export default async function Banner() {
       )}
       
       <div className="text-xs font-mono opacity-70">
-        {new Date().toLocaleDateString()}
+        <ClientDate />
       </div>
     </div>
   );
